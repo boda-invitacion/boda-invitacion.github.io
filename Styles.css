@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    text-wrap: pretty;
+    background-image: url(Imagen-Fondo/fondo-total.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* HEADER */
+header {
+    color: #f99;
+    width: 100%;
+}
+
+.image {
+    width: 375px;
+    height: 500px;
+}
+
+.box {
+    background-color: transparent;
+}
+
+.head--subTittle {
+    font-family: 'Poiret One';
+    margin-top: 3.6%;
+    font-weight: bold;
+    font-size: 2.2em;
+}
+
+.head--Contain {
+    font-weight: 800;
+    padding: 0;
+    margin-top: 1.5%;
+    font-family: 'Poiret One';
+    font-size: 6.7em;
+    text-wrap: balance;
+    white-space: pre;
+}
+
+.head--Date {
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    margin-top: 7%;
+    font-size: 2.1em;
+    margin-bottom: 0;
+}
+
+.head--Footer {
+    font-family: 'Indie Flower';
+    margin-top: -1em;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+/* MAIN--FOOTER */
+
+.main--footer{
+    padding: 8% 2% 0 6.7%;
+    border-right: 5px solid #000;
+}
+
+.main--mapOne {
+    display: flex;
+}
+
+.Box--main {
+    color: #f99;
+    background-color: #fff;
+    height: 30%;
+}
+
+.main--text {
+    margin-top: 8%;
+    font-family: 'Poiret One';
+    font-weight: bold;
+    font-size: 3.5em;
+    padding: 0 20rem;
+}
+
+.main--foot {
+    font-weight: bold;
+    font-size: 1em;
+    color: #000;
+}
+
+.map--Chachapa {
+    width: 20em;
+    height: 20em;
+    margin-left: 6em;
+}
+
+/* MAIN--CENTER */
+
+.main--addres {
+    margin-top: 4em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    display: flex;
+    background-color: #f997;
+}
+
+.map--Amozoc {
+    width: 20em;
+    height: 20em;
+    margin-left: 6em;
+}
+
+.addres--text {
+    padding: 8% 15.5% 0 0;
+    border-right: 5px solid #000;
+    font-weight: bold;
+    font-size: 1em;
+    color: #000;
+}
+
+.where {
+    text-wrap: balance;
+    white-space: pre;
+    border-right: 5px solid #000;
+    padding: 8% 9.8% 0 10%;
+}
+
+.where--text {
+    font-weight: bold;
+    font-size: 1em;
+    color: #000;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.main--backContainer {
+    background-color: #fff;
+}
+
+.back--Container {
+    color: #f66;
+    font-family: 'Poiret One';
+    font-weight: bold;
+    font-size: 5em;
+    padding: 7rem 20rem;
+    margin-bottom: 0;
+}
+
+/* FOOTER */
+
+.Footer {
+    background-color: #f997;
+    padding: 3rem 20rem;
+}
+
+.footer {
+    color: #000;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.text {
+    margin-top: 3em;
+    font-size: 1.1em;
+}
+
+/* MEDIAQUERIES HEADER */
+
+@media screen and (max-width:1024px){
+
+    body {
+        max-width: 100%;
+        padding: 0;
+        justify-content: center;
+        background-size: contain;
+        font-weight: bolder;
+    }
+
+    header {
+        color: #f33;
+        width: 100%;
+    }
+
+    .Box {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .image {
+        width: 225px;
+        height: 300px;
+    }
+
+    .head--subTittle {
+        font-family: 'Poiret One';
+        margin-top: 3.6%;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    .head--Contain {
+        font-weight: 800;
+        padding: 0;
+        margin-top: 1.5%;
+        font-family: 'Poiret One';
+        font-size: 2em;
+        text-wrap: balance;
+        white-space: pre;
+    }
+
+    .head--Date {
+        font-family: 'Indie Flower';
+        font-weight: bold;
+        margin-top: 7%;
+        font-size: 1.4em;
+        margin-bottom: 0;
+    }
+
+    .head--Footer {
+        font-family: 'Indie Flower';
+        margin-top: -1em;
+        font-weight: 600;
+        font-size: 1em;
+    }
+}
+
+/* MEDIAQUERIES MAIN */
+
+@media screen and (max-width:1024px){
+    /* MAIN FOOTER */
+
+    .main--footer{
+        padding: 0;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        border-right: none;
+    }
+
+    .main--mapOne {
+        display: block;
+    }
+
+    .Box--main {
+        color: #f99;
+        background-color: #fff;
+        height: 30%;
+    }
+    
+    .main--text {
+        margin-top: 8%;
+        font-family: 'Poiret One';
+        font-weight: bold;
+        font-size: 1.5em;
+        padding: 0;
+    }
+
+    .main--foot {
+        font-weight: bold;
+        font-size: 1.1em;
+        color: #000;
+    }
+
+    .map--Chachapa {
+        width: 10em;
+        height: 10em;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    /* MAIN--CENTER */
+    
+    .main--addres {
+        margin-top: 3%;
+        padding: 0;
+        display: block;
+    }
+
+    .map--Amozoc {
+        width: 10em;
+        height: 10em;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .addres--text {
+        border-bottom: 2px solid #000;
+        font-weight: bold;
+        font-size: 1.1em;
+        color: #000;
+        border-right: none;
+        padding: 0;
+    }
+
+    .where {
+        white-space: normal;
+        border: none;
+        border-top: 2px solid #000;
+    }
+
+    .where--text {
+        font-weight: bold;
+        font-size: 1.1em;
+        color: #000;
+        padding: 0 0 0 0;
+        margin: 0;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .back--Container {
+        color: #f66;
+        font-family: 'Poiret One';
+        font-weight: bold;
+        font-size: 2em;
+        margin-bottom: 4%;
+        padding: 10% 0;
+    }
+}
+
+/* MEDIAQUERIES FOOTER */
+
+@media screen and (max-width:1024px){
+
+    .Footer {
+        padding: 1em 0;
+    }
+    
+    .footer {
+        color: #000;
+        font-size: 2em;
+        margin-top: 0;
+    }
+    
+    .text {
+        margin-top: 3em;
+        font-size: 1.1em;
+    }
+}
